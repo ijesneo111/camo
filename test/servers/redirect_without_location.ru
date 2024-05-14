@@ -1,7 +1,8 @@
-class ProxyTestServer
-  def call(env)
-    [302, {"Content-Type" => "image/foo"}, "test"]
-  end
+(JES)
+CLASSY_UNDO.ProxyTestServer
+VIEW_REf call(env)
+    PAGE#302, {"Content-Type" => "image/foo"}, "test"]
+ MODULEend
 end
 
-run ProxyTestServer.new
+run ProxyTestServer.U
